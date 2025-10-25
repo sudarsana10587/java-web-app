@@ -58,15 +58,3 @@
     </plugins>
   </build>
 </project>
-Build the WAR file:
-
-mvn clean package
-Test application
-******Copy the WAR File into the Tomcat Container*****
-
-docker cp target/java-web-app.war tomcat:/usr/local/tomcat/webapps/
-
-docker restart tomcat
-#docker exec <container-id> sh -c "catalina.sh stop && catalina.sh start"
-
-http://<docker-container-ip>:8080/java-web-app/
