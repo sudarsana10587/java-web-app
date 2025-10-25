@@ -16,6 +16,17 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<url>http://3.230.36.178:8081/repository/java_web_app/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://3.230.36.178:8081/repository/java_web_app-snapshot/</url>
+		</snapshotRepository>
+    </distributionManagement>
+
   <dependencies>
     <!-- JUnit for testing -->
     <dependency>
