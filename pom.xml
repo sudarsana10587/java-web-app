@@ -9,8 +9,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <sonar.host.url>http://localhost:9000</sonar.host.url>
-    <sonar.login>sqa_0d9a3fd6426d58e092de6374af9baeaf72ebe88b</sonar.login>
+    <sonar.host.url>http://3.86.13.73:9000</sonar.host.url>
+    <sonar.login>admin</sonar.login>
   </properties>
 
   <dependencies>
